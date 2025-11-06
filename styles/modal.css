@@ -1,0 +1,50 @@
+.modal-wrapper{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+    max-height: 600px;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    color: aliceblue;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+.modal-header {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 15px 15px;
+}
+.modal-body {
+    padding: 20px 15px;
+    height: 80px;
+}
+.modal-footer {
+    border-top: 1px solid #cfcfcf;
+    padding: 15px 15px;
+    text-align: right;
+}
+.modal-footer > button {
+    width: 75px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.action-btn {
+    background: #2a9577;
+    border: 1px solid #2a9577;
+}
+.cancel-btn {
+    background: #d73c33;
+    border: 1px solid #d73c33;
+}
